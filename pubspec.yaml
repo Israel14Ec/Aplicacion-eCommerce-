@@ -1,0 +1,90 @@
+name: edreams
+description: Proyecto Final
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.0
+
+  # Firebase
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.0
+  firebase_auth: ^4.6.2
+  firebase_storage: ^11.2.2
+
+  # Localizador de servidor
+  get_it: ^7.6.0
+
+  # Icono de launcher
+  flutter_launcher_icons: ^0.13.1
+
+  # Para SVG Imagenes
+  flutter_svg: ^2.0.6
+
+  # Fuente
+  google_fonts: ^4.0.3
+
+  # Proveedor (State management)
+  provider: ^6.0.5
+
+  #Internalización para usar dolares o euros
+  intl: ^0.18.1
+
+  # Plugin para ver las imagenes de la biblioteca del dispositivio y poder tomarlas con la camara.
+  image_picker: ^0.8.8
+  image_picker_web: ^3.0.0+1
+
+  # Convertir fechas en humanized text
+  timeago: ^3.4.0
+
+  # Almacenamiento local
+  shared_preferences: ^2.1.2
+
+  # Url Launcher
+  url_launcher: ^6.1.11
+
+  # Compras
+  badges: ^3.1.1
+
+  # Reducir el hascode y el uso de ==.
+  equatable: ^2.0.5
+
+  # Manejo de imagenes compresas
+  flutter_image_compress: ^2.0.3
+
+  #Responsive:
+  responsive_builder: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+  build_runner: ^2.4.5
+
+flutter:
+
+  uses-material-design: true
+
+  # Formato de los assets:
+  assets:
+    - assets/
+    - assets/launcher_icons/
+    - assets/images/
+    - assets/img/
+  fonts:
+    - family: Custom
+      fonts:
+        - asset: assets/icons/Custom.ttf
+    
